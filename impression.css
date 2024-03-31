@@ -1,0 +1,27 @@
+@media print {
+  /* Masquer le menu et le pied de page */
+  nav,
+  footer {
+    display: none;
+  }
+
+  /* Augmenter la taille de la police */
+  body {
+    font-size: 16px;
+  }
+
+  /* Ajuster la largeur du contenu */
+  main {
+    width: 100%;
+  }
+
+  /* Enlever les marges des images */
+  img {
+    margin: 0;
+  }
+
+  /* Saut de page après chaque recette */
+  .recette {
+    page-break-after: always;
+  }
+}
